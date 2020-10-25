@@ -7,27 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A56F3F46254582BC00381707 /* MoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F3F45254582BC00381707 /* MoodListViewController.swift */; };
+		A56F3F4B2545850300381707 /* MoodsConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F3F4A2545850300381707 /* MoodsConfigurable.swift */; };
 		A5C0D41925456FB400F18664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D41825456FB400F18664 /* AppDelegate.swift */; };
 		A5C0D41B25456FB400F18664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D41A25456FB400F18664 /* SceneDelegate.swift */; };
-		A5C0D41D25456FB400F18664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D41C25456FB400F18664 /* ViewController.swift */; };
+		A5C0D41D25456FB400F18664 /* MoodSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D41C25456FB400F18664 /* MoodSelectionViewController.swift */; };
 		A5C0D42025456FB400F18664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C0D41E25456FB400F18664 /* Main.storyboard */; };
 		A5C0D42225456FBB00F18664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C0D42125456FBB00F18664 /* Assets.xcassets */; };
 		A5C0D42525456FBB00F18664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C0D42325456FBB00F18664 /* LaunchScreen.storyboard */; };
+		A5C0D4352545726300F18664 /* MandalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D4342545726300F18664 /* MandalaUITests.swift */; };
+		A5C0D4452545726E00F18664 /* MandalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D4442545726E00F18664 /* MandalaTests.swift */; };
+		A5C0D450254572C500F18664 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D44F254572C500F18664 /* Mood.swift */; };
+		A5C0D4552545730500F18664 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D4542545730500F18664 /* MoodEntry.swift */; };
+		A5C0D45A2545752000F18664 /* UIColor+Mandala.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D4592545752000F18664 /* UIColor+Mandala.swift */; };
+		A5C0D45F254575A600F18664 /* UIImage+Mandala.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0D45E254575A600F18664 /* UIImage+Mandala.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A5C0D4372545726400F18664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C0D40D25456FB400F18664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C0D41425456FB400F18664;
+			remoteInfo = Mandala;
+		};
+		A5C0D4472545726E00F18664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C0D40D25456FB400F18664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C0D41425456FB400F18664;
+			remoteInfo = Mandala;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A56F3F45254582BC00381707 /* MoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodListViewController.swift; sourceTree = "<group>"; };
+		A56F3F4A2545850300381707 /* MoodsConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsConfigurable.swift; sourceTree = "<group>"; };
 		A5C0D41525456FB400F18664 /* Mandala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mandala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C0D41825456FB400F18664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C0D41A25456FB400F18664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5C0D41C25456FB400F18664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5C0D41C25456FB400F18664 /* MoodSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSelectionViewController.swift; sourceTree = "<group>"; };
 		A5C0D41F25456FB400F18664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5C0D42125456FBB00F18664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C0D42425456FBB00F18664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5C0D42625456FBB00F18664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C0D4322545726300F18664 /* MandalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C0D4342545726300F18664 /* MandalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaUITests.swift; sourceTree = "<group>"; };
+		A5C0D4362545726300F18664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C0D4422545726E00F18664 /* MandalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C0D4442545726E00F18664 /* MandalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaTests.swift; sourceTree = "<group>"; };
+		A5C0D4462545726E00F18664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C0D44F254572C500F18664 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		A5C0D4542545730500F18664 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		A5C0D4592545752000F18664 /* UIColor+Mandala.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Mandala.swift"; sourceTree = "<group>"; };
+		A5C0D45E254575A600F18664 /* UIImage+Mandala.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Mandala.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A5C0D41225456FB400F18664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C0D42F2545726300F18664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C0D43F2545726E00F18664 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				A5C0D41725456FB400F18664 /* Mandala */,
+				A5C0D4332545726300F18664 /* MandalaUITests */,
+				A5C0D4432545726E00F18664 /* MandalaTests */,
 				A5C0D41625456FB400F18664 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				A5C0D41525456FB400F18664 /* Mandala.app */,
+				A5C0D4322545726300F18664 /* MandalaUITests.xctest */,
+				A5C0D4422545726E00F18664 /* MandalaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +113,37 @@
 			children = (
 				A5C0D41825456FB400F18664 /* AppDelegate.swift */,
 				A5C0D41A25456FB400F18664 /* SceneDelegate.swift */,
-				A5C0D41C25456FB400F18664 /* ViewController.swift */,
+				A5C0D41C25456FB400F18664 /* MoodSelectionViewController.swift */,
+				A56F3F45254582BC00381707 /* MoodListViewController.swift */,
 				A5C0D41E25456FB400F18664 /* Main.storyboard */,
+				A56F3F4A2545850300381707 /* MoodsConfigurable.swift */,
+				A5C0D44F254572C500F18664 /* Mood.swift */,
+				A5C0D4542545730500F18664 /* MoodEntry.swift */,
+				A5C0D4592545752000F18664 /* UIColor+Mandala.swift */,
+				A5C0D45E254575A600F18664 /* UIImage+Mandala.swift */,
 				A5C0D42125456FBB00F18664 /* Assets.xcassets */,
 				A5C0D42325456FBB00F18664 /* LaunchScreen.storyboard */,
 				A5C0D42625456FBB00F18664 /* Info.plist */,
 			);
 			path = Mandala;
+			sourceTree = "<group>";
+		};
+		A5C0D4332545726300F18664 /* MandalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0D4342545726300F18664 /* MandalaUITests.swift */,
+				A5C0D4362545726300F18664 /* Info.plist */,
+			);
+			path = MandalaUITests;
+			sourceTree = "<group>";
+		};
+		A5C0D4432545726E00F18664 /* MandalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0D4442545726E00F18664 /* MandalaTests.swift */,
+				A5C0D4462545726E00F18664 /* Info.plist */,
+			);
+			path = MandalaTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +166,42 @@
 			productReference = A5C0D41525456FB400F18664 /* Mandala.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A5C0D4312545726300F18664 /* MandalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C0D43B2545726400F18664 /* Build configuration list for PBXNativeTarget "MandalaUITests" */;
+			buildPhases = (
+				A5C0D42E2545726300F18664 /* Sources */,
+				A5C0D42F2545726300F18664 /* Frameworks */,
+				A5C0D4302545726300F18664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5C0D4382545726400F18664 /* PBXTargetDependency */,
+			);
+			name = MandalaUITests;
+			productName = MandalaUITests;
+			productReference = A5C0D4322545726300F18664 /* MandalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A5C0D4412545726E00F18664 /* MandalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C0D4492545726E00F18664 /* Build configuration list for PBXNativeTarget "MandalaTests" */;
+			buildPhases = (
+				A5C0D43E2545726E00F18664 /* Sources */,
+				A5C0D43F2545726E00F18664 /* Frameworks */,
+				A5C0D4402545726E00F18664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5C0D4482545726E00F18664 /* PBXTargetDependency */,
+			);
+			name = MandalaTests;
+			productName = MandalaTests;
+			productReference = A5C0D4422545726E00F18664 /* MandalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +213,14 @@
 				TargetAttributes = {
 					A5C0D41425456FB400F18664 = {
 						CreatedOnToolsVersion = 12.0.1;
+					};
+					A5C0D4312545726300F18664 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A5C0D41425456FB400F18664;
+					};
+					A5C0D4412545726E00F18664 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A5C0D41425456FB400F18664;
 					};
 				};
 			};
@@ -115,6 +238,8 @@
 			projectRoot = "";
 			targets = (
 				A5C0D41425456FB400F18664 /* Mandala */,
+				A5C0D4312545726300F18664 /* MandalaUITests */,
+				A5C0D4412545726E00F18664 /* MandalaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +255,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5C0D4302545726300F18664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C0D4402545726E00F18664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,13 +276,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C0D41D25456FB400F18664 /* ViewController.swift in Sources */,
+				A5C0D450254572C500F18664 /* Mood.swift in Sources */,
+				A56F3F46254582BC00381707 /* MoodListViewController.swift in Sources */,
+				A5C0D41D25456FB400F18664 /* MoodSelectionViewController.swift in Sources */,
+				A5C0D4552545730500F18664 /* MoodEntry.swift in Sources */,
+				A56F3F4B2545850300381707 /* MoodsConfigurable.swift in Sources */,
 				A5C0D41925456FB400F18664 /* AppDelegate.swift in Sources */,
+				A5C0D45A2545752000F18664 /* UIColor+Mandala.swift in Sources */,
+				A5C0D45F254575A600F18664 /* UIImage+Mandala.swift in Sources */,
 				A5C0D41B25456FB400F18664 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5C0D42E2545726300F18664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C0D4352545726300F18664 /* MandalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C0D43E2545726E00F18664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C0D4452545726E00F18664 /* MandalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5C0D4382545726400F18664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5C0D41425456FB400F18664 /* Mandala */;
+			targetProxy = A5C0D4372545726400F18664 /* PBXContainerItemProxy */;
+		};
+		A5C0D4482545726E00F18664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5C0D41425456FB400F18664 /* Mandala */;
+			targetProxy = A5C0D4472545726E00F18664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A5C0D41E25456FB400F18664 /* Main.storyboard */ = {
@@ -319,6 +493,84 @@
 			};
 			name = Release;
 		};
+		A5C0D4392545726400F18664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W4MA25Y33;
+				INFOPLIST_FILE = MandalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawaLed.MandalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mandala;
+			};
+			name = Debug;
+		};
+		A5C0D43A2545726400F18664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W4MA25Y33;
+				INFOPLIST_FILE = MandalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawaLed.MandalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mandala;
+			};
+			name = Release;
+		};
+		A5C0D44A2545726E00F18664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W4MA25Y33;
+				INFOPLIST_FILE = MandalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawaLed.MandalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mandala.app/Mandala";
+			};
+			name = Debug;
+		};
+		A5C0D44B2545726E00F18664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W4MA25Y33;
+				INFOPLIST_FILE = MandalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jawaLed.MandalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mandala.app/Mandala";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +588,24 @@
 			buildConfigurations = (
 				A5C0D42A25456FBB00F18664 /* Debug */,
 				A5C0D42B25456FBB00F18664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C0D43B2545726400F18664 /* Build configuration list for PBXNativeTarget "MandalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C0D4392545726400F18664 /* Debug */,
+				A5C0D43A2545726400F18664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C0D4492545726E00F18664 /* Build configuration list for PBXNativeTarget "MandalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C0D44A2545726E00F18664 /* Debug */,
+				A5C0D44B2545726E00F18664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
