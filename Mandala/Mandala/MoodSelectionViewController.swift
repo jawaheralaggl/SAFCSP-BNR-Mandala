@@ -9,31 +9,17 @@ import UIKit
 
 class MoodSelectionViewController: UIViewController {
     
-    @IBOutlet var stackView: UIStackView!
     @IBOutlet var addMoodButton: UIButton!
+    @IBOutlet var moodSelector: ImageSelector!
     
-    var moods: [Mood] = [] {
+    // Marked private for Bronze Challenge: More Access Control
+    private var moods: [Mood] = [] {
         didSet {
             currentMood = moods.first
-            moodButtons = moods.map { mood in
-                let moodButton = UIButton()
-                moodButton.setImage(mood.image, for: .normal)
-                moodButton.imageView?.contentMode = .scaleAspectFit
-                moodButton.adjustsImageWhenHighlighted = false
-                moodButton.addTarget(self, action: #selector(moodSelectionChanged(_:)), for: .touchUpInside)
-                
-                return moodButton
-            }
+            moodSelector.images = moods.map {$0.image}
+            
         }
     }
-    
-    var moodButtons: [UIButton] = [] {
-        didSet {
-            oldValue.forEach { $0.removeFromSuperview() }
-            moodButtons.forEach { stackView.addArrangedSubview($0)}
-        }
-    }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,7 +38,8 @@ class MoodSelectionViewController: UIViewController {
         
     }
     
-    var currentMood: Mood? {
+    // Marked private for Bronze Challenge: More Access Control
+    private var currentMood: Mood? {
         didSet {
             guard let currentMood = currentMood else {
                 addMoodButton?.setTitle(nil, for: .normal)
@@ -62,17 +49,16 @@ class MoodSelectionViewController: UIViewController {
             addMoodButton?.setTitle("I'm \(currentMood.name)", for: .normal)
             addMoodButton?.backgroundColor = currentMood.color }
     }
-    @objc func moodSelectionChanged(_ sender: UIButton) {
-        guard let selectedIndex = moodButtons.firstIndex(of: sender) else {
-            preconditionFailure(
-                "Unable to find the tapped button in the buttons array.")
-        }
+    
+    @IBAction private func moodSelectionChanged(_ sender: ImageSelector) {
+        let selectedIndex = sender.selectedIndex
         currentMood = moods[selectedIndex]
     }
     
-    // MARK: -
+    // MARK: - Conforming to the MoodsConfigurable protocol
     
-    var moodsConfigurable: MoodsConfigurable!
+    // Marked private for Bronze Challenge: More Access Control
+    private var moodsConfigurable: MoodsConfigurable!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
@@ -82,7 +68,7 @@ class MoodSelectionViewController: UIViewController {
             }
             self.moodsConfigurable = moodsConfigurable
             segue.destination.additionalSafeAreaInsets =
-                                    UIEdgeInsets(top: 0, left: 0, bottom: 160, right: 0)
+                UIEdgeInsets(top: 0, left: 0, bottom: 160, right: 0)
         default:
             preconditionFailure("Unexpected segue identifier")
         }
